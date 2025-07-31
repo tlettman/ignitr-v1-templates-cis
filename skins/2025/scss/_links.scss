@@ -1,0 +1,9 @@
+.link-custom {
+  color: $primary;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 10%);
+  }
+}
