@@ -11,7 +11,7 @@ $config['ignitr']['forcehttps'] = false;
 // Contact Settings
 $config['ignitr']['devemail']        =  'support@space2burn.com';
 $config['ignitr']['adminemail']      =  'support@space2burn.com';
-$config['ignitr']['sitename']        =  'V1 TEMPLATE';
+$config['ignitr']['sitename']        =  'CIS Wholesale';
 $config['ignitr']['clientphone']     =  '612-834-0841';
 $config['ignitr']['clientemail']     =  'support@space2burn.com';
 $config['ignitr']['fromaddress']     =  'support@space2burn.com';

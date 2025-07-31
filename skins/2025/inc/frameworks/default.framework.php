@@ -1,4 +1,5 @@
 <header>
+    <div id="topbar"><? $this->widget( 'sparks', 'single', 638 ) ?></div>
     <? 
     $json = '{ "logo_src":"/core/admin/structure/v1/ignitr_logo_120.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
     //  "defaultname":"Overview",
@@ -14,12 +15,11 @@
     <div class="container-fluid">
 
         <div class="row">
-            <div class="col">
-                <a href="https://instagram.com" target="_blank"><i class="fa-icon fa-brands fa-square-instagram"></i></a>
-                <a href="https://facebook.com" target="_blank"><i class="fa-icon fa-brands fa-facebook"></i></a>
+            <div class="col-6 col-md-2">
+                <? $this->simpleNav( 1, 'flex-column align-items-start' ) ?>
             </div>
-            <div class="col text-end">
-                <? // $this->widget( 'sparks', 'single', 633 ) ?>
+            <div class="col-6 col-md-2">
+                <? $this->widget( 'sparks', 'single', 639 ) ?>
             </div>
         </div>
 
