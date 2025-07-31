@@ -1,0 +1,11 @@
+/* Default (XS: <576px) */
+
+header .nav {
+    
+}
+
+
+/* Small screens (≥576px) */
+@media (min-width: 576px) {
+    /* placeholder  */
+}
