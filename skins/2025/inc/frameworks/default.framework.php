@@ -10,7 +10,7 @@
         $this->bsResponsiveNav( 1, $json, '5.3' );
         ?>
 
-        <div class="bg-six bg-cover position-absolute z-n1 top-0 start-0 w-100 h-100">&nbsp;</div>
+        <div class="bg-eight bg-cover position-absolute z-n1 top-0 start-0 w-100 h-100">&nbsp;</div>
         
     <div>
 </header>

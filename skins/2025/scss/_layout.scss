@@ -67,14 +67,11 @@
 // Header 
 
 header {
-    // background:url(/core/structure/alpha_tiles/FFFFFF_30.png);
-    // background: teal !important;
+    // placeholder 
 }
 
 header .bg-cover {
     opacity: 0.9 !important;
-    // background: white;
-    border:4px solid red;
 }
 
 #topbar {
@@ -100,8 +97,8 @@ header .bg-cover {
 // Sections
 
 #hero .floater {
-    top: 80px;
-    left: -20px;
+    top: 220px;
+    left: -10px;
     max-width: 340px;
 }
 
