@@ -1,15 +1,22 @@
 <header>
-    <div id="topbar"><? $this->widget( 'sparks', 'single', 638 ) ?></div>
-    <? 
-    $json = '{ "logo_src":"/templates/cis/skins/2025/assets/images/lg/CIS_logo.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
-    //  "defaultname":"Overview",
-    $this->bsResponsiveNav( 1, $json, '5.3' );
-    ?>
+    <div id="topbar" class="bg-brand-dark-blue color-white text-end no-margin">
+        <!-- <div class="container-fluid"> -->
+            <? $this->widget( 'sparks', 'single', 638 ) ?>
+        <!-- </div> -->
+    </div>
+
+    <div class="bg-eight bg-cover">
+        <? 
+        $json = '{ "logo_src":"/templates/cis/skins/2025/assets/logos/CIS_logo.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
+        //  "defaultname":"Overview",
+        $this->bsResponsiveNav( 1, $json, '5.3' );
+        ?>
+    </div>
 </header>
 
-<!-- <section id="layout">
+<section id="layout">
     <? $this->setLayout() ?>
-</section> -->
+</section>
 
 <footer>
     <div class="container-fluid">

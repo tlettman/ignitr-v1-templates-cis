@@ -1,4 +1,5 @@
-/* Default (XS: <576px) */
+
+/* ******* Layout ******* */
 
 #testmode-header {
     display: none;
@@ -6,13 +7,15 @@
 
 .no-pad,
 .no-pad .row,
-.no-pad .col {
+.no-pad .col,
+.no-pad p {
     padding: 0 !important;
 }
 
 .no-margin,
 .no-margin .row,
-.no-margin .col {
+.no-margin .col,
+.no-margin p {
     margin: 0 !important;
 }
 
@@ -30,16 +33,22 @@
     background-size: cover !important;
 }
 
-#hero {
-    // min-height: 800px;
+.spark .clear {
+    display: none;
+}
+
+.fa-icon {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #000;
 }
 
 .feature-section {
     padding: 60px;
     min-height: 600px;
-    // border: 1px solid blue;
 }
 
+.feature-section h1,
 .feature-section h2,
 .feature-section p,
 .feature-section a {
@@ -49,8 +58,36 @@
 
 .feature-section.no-pad .col {
     padding: 60px !important;
-    // border: 1px solid red;
 }
+
+// Header 
+
+#topbar {
+    padding: 10px 60px;
+}
+
+#topbar p {
+    font-size: .75rem;
+}
+
+#topbar a {
+    display: inline-block;
+    cursor:none;
+    margin-left: 60px;
+    color: map-get($theme-colors, white);
+
+    &:hover {
+        color: map-get($theme-colors, grey);
+    }
+}
+
+
+// Sections 
+
+#hero p {
+    color: map-get($theme-colors, black);
+}
+
 
 #section-3 .card {
     min-width: 440px;

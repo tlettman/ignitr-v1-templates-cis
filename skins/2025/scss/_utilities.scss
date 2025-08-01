@@ -1,0 +1,37 @@
+
+/* ******* Utilities ******* */
+
+// Fonts - use map to create classes
+@each $name, $value in $theme-fonts {
+  .font-#{$name} {
+    font-family: $value;
+  }
+}
+
+// Colors - use map to create classes
+@each $name, $value in $theme_colors {
+  // Text color utility
+  .color-#{$name} {
+    color: $value;
+  }
+  // Background color utility
+  .bg-#{$name} {
+    background-color: $value;
+  }
+  // Button colors 
+  .btn.btn-primary.color-#{$name} {
+    color: $value;
+  }
+  // Button backgrounds 
+  .btn.btn-primary.bg-#{$name} {
+    background-color: $value;
+  }
+}
+
+// Background Images - use map to create classes
+@each $name, $value in $bg-images {
+  .bg-#{$name} {
+    background: $value;
+  }
+}
+

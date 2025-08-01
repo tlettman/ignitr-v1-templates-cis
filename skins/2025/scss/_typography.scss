@@ -8,11 +8,11 @@
 body {
   font-family: map-get($theme-fonts, one);
   line-height: 1.6;
-  color: map-get($theme-colors, sky-blue);
+  color: map-get($theme-colors, black);
 }
 
 h1 {
-  color: map-get($theme-colors, orange);
+  color: map-get($theme-colors, black);
 }
 
 h2 {

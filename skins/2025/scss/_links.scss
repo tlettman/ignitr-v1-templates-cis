@@ -1,9 +1,13 @@
-// a {
-//   color: $color-secondary;
-//   text-decoration: underline;
 
-//   &:hover {
-//     text-decoration: none;
-//     color: darken( $color-primary, 10%);
-//   }
-// }
+/* ******* Links ******* */
+
+a {
+  color: map-get($theme-colors, brand-dark-blue);
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: darken( map-get($theme-colors, brand-dark-blue), 10%);
+  }
+}

@@ -1,9 +1,26 @@
-// .navbar-custom {
-//   background-color: $primary;
-//   .nav-link {
-//     color: white;
-//     &:hover {
-//       color: lighten(white, 10%);
-//     }
-//   }
-// }
+
+/* ******* Navbar ******* */
+
+header .navbar {
+    padding:15px 30px;
+    background: transparent !important;
+}
+
+header .navbar a {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    color: map-get($theme-colors, brand-dark-blue);
+    font-size: .9rem;
+}
+
+header .navbar .navbar-brand {
+    max-width: 220px;
+}
+
+header .navbar ul li:nth-of-type(5) a {
+  background-color: map-get($theme-colors, orange);
+  color: map-get($theme-colors, white);
+  border-radius: 999px;
+  margin-top:3px;
+  padding: 3px 20px 4px !important;
+}

@@ -1,13 +1,20 @@
-/* Buttons */
 
-.btn-primary {
-  color: map-get($theme_colors, white);
+/* ******* Buttons ******* */
+
+.btn.btn-primary {
+  border: none;
+  padding: 6px 20px 8px;
+  border-radius: 999px;
+  background: map-get($theme_colors, light-green);
+  color: map-get($theme_colors, black);
+  font-weight: 600;
 
   &:hover {
-    color: darken( map-get($theme_colors, sky-blue), 10%);
+    cursor: pointer;
+    background: darken( map-get($theme_colors, light-green), 10%);
   }
 }
 
-.btn-primary.disabled {
+.btn.btn-primary.disabled {
   color: map-get($theme_colors, disabled);
 }
