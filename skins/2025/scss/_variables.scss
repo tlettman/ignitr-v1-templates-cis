@@ -56,12 +56,14 @@ $theme-colors: (
   }
 }
 
-
 // Background Images - use map to create classes
 $bg-images: (
-    one: url(/templates/cis/skins/2025/assets/images/exports/Hero%20Light%20Blue.png) center center,
+    one: url(/templates/cis/skins/2025/assets/images/Hero%20Light%20Blue.png) center center,
     two: url(/templates/cis/skins/2025/assets/images/cheerful-young-family-with-child.jpg) center center,
-    three: url(/templates/cis/skins/2025/assets/images/close-up-warehouse-view.jpg) center center
+    three: url(/templates/cis/skins/2025/assets/images/close-up-warehouse-view.jpg) center center,
+    four: url(/templates/cis/skins/2025/assets/images/volunteer-white-gloves-holds-cardboard-box-with-essential-food.jpg) center center,
+    five: url(/templates/cis/skins/2025/assets/images/freepik__adjust__6208.png) center center,
+    six: url(/templates/cis/skins/2025/assets/images/young-couple-choosing-goods-supermarket.jpg) center center
 );
 
 @each $name, $value in $bg-images {
