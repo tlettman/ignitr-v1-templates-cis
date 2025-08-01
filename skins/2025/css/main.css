@@ -113,22 +113,25 @@
   background-color: #c6c6c6; }
 
 .bg-one {
-  background: url(/templates/cis/skins/2025/assets/images/Hero%20Light%20Blue.png) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/lg/Hero_Light_Blue.png) center center; }
 
 .bg-two {
-  background: url(/templates/cis/skins/2025/assets/images/cheerful-young-family-with-child.jpg) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/lg/cheerful-young-family-with-child.jpg) center center; }
 
 .bg-three {
-  background: url(/templates/cis/skins/2025/assets/images/close-up-warehouse-view.jpg) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/lg/close-up-warehouse-view.jpg) center center; }
 
 .bg-four {
-  background: url(/templates/cis/skins/2025/assets/images/volunteer-white-gloves-holds-cardboard-box-with-essential-food.jpg) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/sm/volunteer-white-gloves-holds-cardboard-box-with-essential-food.jpg) center center; }
 
 .bg-five {
-  background: url(/templates/cis/skins/2025/assets/images/freepik__adjust__6208.png) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/sm/freepik__adjust__6208.png) center center; }
 
 .bg-six {
-  background: url(/templates/cis/skins/2025/assets/images/young-couple-choosing-goods-supermarket.jpg) center center; }
+  background: url(/templates/cis/skins/2025/assets/images/sm/young-couple-choosing-goods-supermarket.jpg) center center; }
+
+.bg-seven {
+  background: url(/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg) center center; }
 
 #testmode-header {
   display: none; }

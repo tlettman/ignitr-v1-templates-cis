@@ -1,7 +1,7 @@
 <header>
     <div id="topbar"><? $this->widget( 'sparks', 'single', 638 ) ?></div>
     <? 
-    $json = '{ "logo_src":"/templates/cis/skins/2025/assets/images/CIS_logo.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
+    $json = '{ "logo_src":"/templates/cis/skins/2025/assets/images/lg/CIS_logo.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
     //  "defaultname":"Overview",
     $this->bsResponsiveNav( 1, $json, '5.3' );
     ?>
