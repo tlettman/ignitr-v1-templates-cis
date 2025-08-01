@@ -4,3 +4,50 @@
     display: none;
 }
 
+.no-pad,
+.no-pad .row,
+.no-pad .col {
+    padding: 0 !important;
+}
+
+.no-margin,
+.no-margin .row,
+.no-margin .col {
+    margin: 0 !important;
+}
+
+.block-links a {
+    display: block;
+    margin: 30px 0;
+    text-decoration: none;
+    
+    &:hover {
+        color: map-get($theme-colors, grey);
+    }
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+#hero {
+    // min-height: 800px;
+}
+
+.feature-section {
+    padding: 60px;
+    min-height: 600px;
+    // border: 1px solid blue;
+}
+
+.feature-section h2,
+.feature-section p,
+.feature-section a {
+    font-family: map-get($theme-fonts, two);
+    color: map-get($theme-colors, white);
+}
+
+.feature-section.no-pad .col {
+    padding: 60px !important;
+    // border: 1px solid red;
+}

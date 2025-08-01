@@ -1,11 +1,5 @@
 
 
-/* Header */
-
-header {
-
-}
-
 section#layout {
     margin: 0 0 60px;
     background: #ebebeb;
@@ -22,13 +16,6 @@ footer p.branding {
     font-size: .7rem;
 }
 
-/* Hero */
-#hero {
-    position:relative;
-    margin:0 0 60px;
-    padding: 60px;
-    background: #ccc;
-}
 
 /* Add margin to stacked columns  */
 .col,

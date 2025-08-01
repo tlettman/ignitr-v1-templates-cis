@@ -1,10 +1,12 @@
 
 // Fonts - use map to create classes
 $theme-fonts: (
-    one: "'Courier', sans-serif",
-    two:  "'Times', serif"
-
+  one: unquote("Inter, sans-serif"),
+  two: unquote("Lexend Deca, sans-serif"),
+  three: unquote("Roboto Mono, monospace"),
+  four: unquote("Libre Baskerville, serif")
 );
+
 
 @each $name, $value in $theme-fonts {
   .font-#{$name} {
@@ -57,14 +59,14 @@ $theme-colors: (
 
 // Background Images - use map to create classes
 $bg-images: (
-    one: url(theurl) center center,
-    two:  url(theurl) center center
-
+    one: url(/templates/cis/skins/2025/assets/images/exports/Hero%20Light%20Blue.png) center center,
+    two: url(/templates/cis/skins/2025/assets/images/cheerful-young-family-with-child.jpg) center center,
+    three: url(/templates/cis/skins/2025/assets/images/close-up-warehouse-view.jpg) center center
 );
 
-@each $name, $value in $theme-fonts {
-  .font-#{$name} {
-    font-family: $value;
+@each $name, $value in $bg-images {
+  .bg-#{$name} {
+    background: $value;
   }
 }
 
