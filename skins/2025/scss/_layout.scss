@@ -1,10 +1,6 @@
 
 /* ******* Layout ******* */
 
-#testmode-header {
-    display: none;
-}
-
 .no-pad,
 .no-pad .row,
 .no-pad .col,
@@ -60,7 +56,26 @@
     padding: 60px !important;
 }
 
+
+// Test mode header 
+
+#testmode-header {
+    display: none;
+}
+
+
 // Header 
+
+header {
+    // background:url(/core/structure/alpha_tiles/FFFFFF_30.png);
+    // background: teal !important;
+}
+
+header .bg-cover {
+    opacity: 0.9 !important;
+    // background: white;
+    border:4px solid red;
+}
 
 #topbar {
     padding: 10px 60px;
@@ -82,10 +97,12 @@
 }
 
 
-// Sections 
+// Sections
 
-#hero p {
-    color: map-get($theme-colors, black);
+#hero .floater {
+    top: 80px;
+    left: -20px;
+    max-width: 340px;
 }
 
 

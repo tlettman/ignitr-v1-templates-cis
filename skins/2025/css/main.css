@@ -239,9 +239,7 @@
 .bg-eight {
   background: url(/templates/cis/skins/2025/assets/images/lg/Swoosh.png) center -100px; }
 
-#testmode-header {
-  display: none; }
-
+/* ******* Typography ******* */
 body {
   font-family: Inter, sans-serif;
   line-height: 1.6;
@@ -300,9 +298,6 @@ header .navbar ul li:nth-of-type(5) a {
   padding: 3px 20px 4px !important; }
 
 /* ******* Layout ******* */
-#testmode-header {
-  display: none; }
-
 .no-pad,
 .no-pad .row,
 .no-pad .col,
@@ -347,6 +342,13 @@ header .navbar ul li:nth-of-type(5) a {
 .feature-section.no-pad .col {
   padding: 60px !important; }
 
+#testmode-header {
+  display: none; }
+
+header .bg-cover {
+  opacity: 0.9 !important;
+  border: 4px solid red; }
+
 #topbar {
   padding: 10px 60px; }
 
@@ -361,8 +363,10 @@ header .navbar ul li:nth-of-type(5) a {
   #topbar a:hover {
     color: #d5e0e3; }
 
-#hero p {
-  color: #03303b; }
+#hero .floater {
+  top: 80px;
+  left: -20px;
+  max-width: 340px; }
 
 #section-3 .card {
   min-width: 440px;

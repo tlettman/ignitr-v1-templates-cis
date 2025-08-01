@@ -1,17 +1,18 @@
-<header>
-    <div id="topbar" class="bg-brand-dark-blue color-white text-end no-margin">
-        <!-- <div class="container-fluid"> -->
+<header class="position-fixed top-0 start-0 w-100 z-3 bg-whitex">
+    <div class="position-relative">
+        <div id="topbar" class="bg-brand-dark-blue color-white text-end no-margin">
             <? $this->widget( 'sparks', 'single', 638 ) ?>
-        <!-- </div> -->
-    </div>
+        </div>
 
-    <div class="bg-eight bg-cover">
         <? 
         $json = '{ "logo_src":"/templates/cis/skins/2025/assets/logos/CIS_logo.png", "navbar-nav-class":"ms-auto mb-2 mb-lg-0"}';
         //  "defaultname":"Overview",
         $this->bsResponsiveNav( 1, $json, '5.3' );
         ?>
-    </div>
+
+        <div class="bg-six bg-cover position-absolute z-n1 top-0 start-0 w-100 h-100">&nbsp;</div>
+        
+    <div>
 </header>
 
 <section id="layout">
