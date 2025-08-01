@@ -1,7 +1,7 @@
 
 <section id="hero">
 
-	<h1>The Hero Section</h1>
+	<? $this->widget( 'sparks', 'single', 640 ) ?>
 
 </section>
 

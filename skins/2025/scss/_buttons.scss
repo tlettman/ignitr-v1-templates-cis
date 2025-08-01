@@ -1,11 +1,13 @@
-.btn-custom {
-  background-color: $primary;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
-  text-decoration: none;
+/* Buttons */
+
+.btn-primary {
+  color: map-get($theme_colors, white);
 
   &:hover {
-    background-color: darken($primary, 10%);
+    color: darken( map-get($theme_colors, sky-blue), 10%);
   }
+}
+
+.btn-primary.disabled {
+  color: map-get($theme_colors, disabled);
 }

@@ -1,5 +1,41 @@
+
+
+#testmode-header {
+    display: none;
+}
+
+
 body {
-  font-family: $font-family-base;
+  font-family: map-get($theme-fonts, one);
   line-height: 1.6;
-  color: #333;
+  color: map-get($theme-colors, sky-blue);
+}
+
+h1 {
+  color: map-get($theme-colors, orange);
+}
+
+h2 {
+  font-family: map-get($theme-fonts, two);
+  color: map-get($theme-colors, mid-green);
+}
+
+h3 {
+    
+}
+
+h4 {
+   
+}
+
+p {
+   
+}
+
+body.hp h1 {
+    
+}
+
+body.hp p {
+    
 }

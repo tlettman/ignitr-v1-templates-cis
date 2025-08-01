@@ -1,2 +1,70 @@
-$primary: #0d6efd;
-$font-family-base: 'Inter', sans-serif;
+
+// Fonts - use map to create classes
+$theme-fonts: (
+    one: "'Courier', sans-serif",
+    two:  "'Times', serif"
+
+);
+
+@each $name, $value in $theme-fonts {
+  .font-#{$name} {
+    font-family: $value;
+  }
+}
+
+
+// Colors - use map to create classes
+$theme-colors: (
+    // Core Palette
+    white: #fff,
+    black: #03303b,
+    light-green: #00e0b6,
+    light-green-subtle: #00f0c2,
+    sky-blue: #0ac4f0,
+    dark-blue: #08a1c4,
+    mid-green: #04b88c,
+    grey: #d5e0e3,
+    orange: #ed7b49,
+    orange-dark: #ba4512,
+    green-quiet: #f9fffe,
+    a11y-mid-green: #03a57d,
+
+    // Brand Palette
+    brand-dark-blue: #044959,
+    brand-dark-blue-subtle: #067089,
+    brand-teal: #27a3a1,
+    brand-brown: #766201,
+
+    // Utility
+    disabled: #c6c6c6
+);
+
+
+// Loop: generate variables and utility classes
+@each $name, $value in $theme_colors {
+
+  // Text color utility
+  .color-#{$name} {
+    color: $value;
+  }
+
+  // Background color utility
+  .bg-#{$name} {
+    background-color: $value;
+  }
+}
+
+
+// Background Images - use map to create classes
+$bg-images: (
+    one: url(theurl) center center,
+    two:  url(theurl) center center
+
+);
+
+@each $name, $value in $theme-fonts {
+  .font-#{$name} {
+    font-family: $value;
+  }
+}
+
