@@ -13,16 +13,28 @@ header .navbar a {
     margin: 0 0 0 20px;
     color: map-get($theme-colors, brand-dark-blue);
     font-size: .9rem;
+    font-weight: 300;
+
+    &:hover {
+        color: map-get($theme-colors, orange);
+    }
 }
+
 
 header .navbar .navbar-brand {
     max-width: 220px;
 }
 
-header .navbar ul li:nth-of-type(5) a {
+header .navbar > ul li:last-of-type a {
   background-color: map-get($theme-colors, orange);
   color: map-get($theme-colors, white);
   border-radius: 999px;
   margin-top:3px;
   padding: 3px 20px 4px !important;
 }
+
+header .navbar .dropdown-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
+

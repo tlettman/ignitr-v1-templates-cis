@@ -1,12 +1,20 @@
 
 /* ******* Utilities ******* */
 
+// Minimum Heights - use map to create classes
+@each $name, $value in $minimum-heights {
+  .min-height-#{$name} {
+    min-height: $value;
+  }
+}
+
 // Fonts - use map to create classes
 @each $name, $value in $theme-fonts {
   .font-#{$name} {
     font-family: $value;
   }
 }
+
 
 // Colors - use map to create classes
 @each $name, $value in $theme_colors {

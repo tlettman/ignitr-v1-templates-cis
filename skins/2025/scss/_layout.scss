@@ -1,17 +1,11 @@
 
 /* ******* Layout ******* */
 
-.no-pad,
-.no-pad .row,
-.no-pad .col,
-.no-pad p {
+.no-pad {
     padding: 0 !important;
 }
 
-.no-margin,
-.no-margin .row,
-.no-margin .col,
-.no-margin p {
+.no-margin {
     margin: 0 !important;
 }
 
@@ -39,23 +33,41 @@
     color: #000;
 }
 
-.feature-section {
-    padding: 60px;
-    min-height: 600px;
+.ruled-rows .row {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-bottom:1px solid #ececec;
 }
 
-.feature-section h1,
-.feature-section h2,
-.feature-section p,
-.feature-section a {
-    font-family: map-get($theme-fonts, two);
-    color: map-get($theme-colors, white);
+    .ruled-rows .row:first-of-type {
+        padding-top: 0;
+    }
+
+
+    .ruled-rows .row:last-of-type {
+        border-bottom: none;
+    }
+
+.banner {
+    margin: 70px 0;
+    font-family: map-get($theme-fonts, four);
+    min-height: 300px;
 }
 
-.feature-section.no-pad .col {
-    padding: 60px !important;
-}
+    .banner h2 {
+        margin: 30px;
+    }
 
+    .banner h3 {
+        margin: 30px;
+        font-family: map-get($theme-fonts, one);
+    }
+
+    .banner p {
+        margin: 15px 0 0;
+        font-family: map-get($theme-fonts, four);
+        font-size: 3rem;
+    }
 
 // Test mode header 
 
@@ -70,31 +82,91 @@ header {
     // placeholder 
 }
 
-header .bg-cover {
-    opacity: 0.9 !important;
-}
+    header .bg-cover {
+        opacity: 0.9 !important;
+    }
 
 #topbar {
     padding: 10px 60px;
 }
 
-#topbar p {
-    font-size: .75rem;
-}
-
-#topbar a {
-    display: inline-block;
-    cursor:none;
-    margin-left: 60px;
-    color: map-get($theme-colors, white);
-
-    &:hover {
-        color: map-get($theme-colors, grey);
+    #topbar p {
+        margin: 0 !important;
+        font-size: .75rem;
     }
+
+    #topbar a {
+        display: inline-block;
+        cursor:none;
+        margin-left: 60px;
+        color: map-get($theme-colors, white);
+
+        &:hover {
+            color: map-get($theme-colors, grey);
+        }
+    }
+
+
+#layout {
+    // margin-top: 120px;
 }
+
+footer {
+    padding: 60px 60px 15px;
+}
+
+    footer p,
+    footer a {
+        font-size: .8rem !important;
+        color: map-get($theme-colors, white) !important;
+    }
+
+    footer ul.nav li {
+        margin: 3px 0;
+    }
+
+    footer ul.nav li a {
+        padding: 3px !important;
+        font-weight: 600;
+    }
+
+    footer p.branding {
+        margin: 30px 0 10px;
+    }
+
+    footer p.branding,
+    footer p.branding a {
+        font-size: .65rem !important;
+    }
 
 
 // Sections
+
+.feature-section {
+    padding: 60px;
+}
+
+    .feature-content {
+        padding: 70px;
+    }
+
+    .feature-content h1 {
+        font-size:3.8em;
+        font-weight: 600;
+    }
+
+    .feature-content h2 {
+        font-size:4em;
+    }
+
+    .feature-content h3 {
+        margin: 0;
+        font-size:1.4em;
+    }
+
+    // .feature-content p {
+    //     margin: 20px 0;
+    // }
 
 #hero .floater {
     top: 220px;
@@ -103,12 +175,91 @@ header .bg-cover {
 }
 
 
-#section-3 .card {
-    min-width: 440px;
-    scroll-snap-align: start;
+#section-2 {
+    // placeholder 
 }
 
-#section-3 .card .bg-cover {
-    height: 300px;
-    border-radius: 10px   ;
+    #section-2 h3 {
+        font-size: 1.2rem;
+    }
+
+    #section-2 p {
+        margin: 5px 0;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    #section-2 a:hover h3,
+    #section-2 a:hover p {
+        color: map-get($theme-colors, grey);
+    }
+
+    #section-2 a {
+        display: block;
+        cursor: pointer;
+    }
+
+
+#section-3 {
+    // padding:60px 0 0;
 }
+
+    #section-3 h2 {
+        padding: 60px 30px;
+    }
+
+    #section-3 .container-fluid {
+        padding: 30px 0;
+        background: map-get($theme-colors, light-green);
+        border-radius: 50px;
+    }
+
+    #section-3 .card {
+        padding: 25px;
+        min-width: 400px;
+        border: none;
+        border-radius: 10px;
+        scroll-snap-align: start;
+    }
+
+    #section-3 .scroll-pad-end {
+        min-width: 2.6rem;
+    }
+
+    #section-3 .card .bg-cover {
+        height: 300px;
+        border-radius: 10px;
+    }
+
+
+#section-4 {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+    #section-4 h2 {
+        margin: 0 30px 40px;
+        font-size: 2.2rem;
+    }
+
+    #section-4 .bg-modern_style {
+        opacity: 0.04;
+    }
+
+
+#section-5 {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+    #section-5 h2 {
+        margin: 0 30px 40px;
+        font-size: 2.2rem;
+    }
+
+
+#section-6 {
+    // padding: 60px 0 !important;
+}
+
+    #section-6 h2 {
+        font-size: 4rem;
+    }

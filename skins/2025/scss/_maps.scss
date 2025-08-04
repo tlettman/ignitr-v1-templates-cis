@@ -1,6 +1,13 @@
 
 // ******* Maps *******
 
+// Minimum Height - use map to create classes
+$minimum-heights: (
+  600: 600px,
+  400: 400px
+);
+
+
 // Fonts - use map to create classes
 $theme-fonts: (
   one: unquote("Inter, sans-serif"),
@@ -37,15 +44,54 @@ $theme-colors: (
 );
 
 // Background Images - use map to create classes
+// $bg-images: (
+//     one: url(/templates/cis/skins/2025/assets/images/lg/Hero_Light_Blue.png) center center,
+//     two: url(/templates/cis/skins/2025/assets/images/lg/cheerful-young-family-with-child.jpg) center center,
+//     three: url(/templates/cis/skins/2025/assets/images/lg/close-up-warehouse-view.jpg) center center,
+
+//     four: url(/templates/cis/skins/2025/assets/images/sm/volunteer-essential-food.jpg) center center,
+//     five: url(/templates/cis/skins/2025/assets/images/sm/freepik__adjust__6208.png) center center,
+//     six: url(/templates/cis/skins/2025/assets/images/sm/young-couple-supermarket.jpg) center center,
+//     seven: url(/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg) center center,
+
+//     eight: url(/templates/cis/skins/2025/assets/images/lg/swoosh_solid.png) center -100px,
+
+//     nine: url(/templates/cis/skins/2025/assets/images/sm/style-is-modern.jpeg) center center,
+//     ten: url(/templates/cis/skins/2025/assets/images/sm/Swoosh_2.png) center center
+// );
+
 $bg-images: (
-    one: url(/templates/cis/skins/2025/assets/images/lg/Hero_Light_Blue.png) center center,
-    two: url(/templates/cis/skins/2025/assets/images/lg/cheerful-young-family-with-child.jpg) center center,
-    three: url(/templates/cis/skins/2025/assets/images/lg/close-up-warehouse-view.jpg) center center,
-
-    four: url(/templates/cis/skins/2025/assets/images/sm/volunteer-essential-food.jpg) center center,
-    five: url(/templates/cis/skins/2025/assets/images/sm/freepik__adjust__6208.png) center center,
-    six: url(/templates/cis/skins/2025/assets/images/sm/young-couple-supermarket.jpg) center center,
-    seven: url(/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg) center center,
-
-    eight: url(/templates/cis/skins/2025/assets/images/lg/swoosh_solid.png) center -100px
+  blue_warehouse: url(/templates/cis/skins/2025/assets/images/sm/blue_warehouse.jpg) center center,
+  blurred_grocery: url(/templates/cis/skins/2025/assets/images/sm/blurred_grocery.jpg) center center,
+  charity_center: url(/templates/cis/skins/2025/assets/images/sm/charity-center.jpg) center center,
+  cis_logo: url(/templates/cis/skins/2025/assets/images/sm/CIS_logo.png) center center,
+  cis_warehouse: url(/templates/cis/skins/2025/assets/images/sm/CIS_Warehouse.png) center center,
+  cis_warehouse_inside: url(/templates/cis/skins/2025/assets/images/sm/CIS_Warehouse_Inside.png) center center,
+  couple_supermarket: url(/templates/cis/skins/2025/assets/images/sm/young-couple-supermarket.jpg) center center,
+  defocused_supermarket: url(/templates/cis/skins/2025/assets/images/sm/defocused-supermarket.jpg) center center,
+  family_with_child: url(/templates/cis/skins/2025/assets/images/lg/cheerful-young-family-with-child.jpg) center center,
+  freepik_adjust: url(/templates/cis/skins/2025/assets/images/sm/freepik__adjust__6208.png) center center,
+  frozen_vegetables: url(/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg) center center,
+  grains: url(/templates/cis/skins/2025/assets/images/sm/grains.jpg) center center,
+  hero_light_blue: url(/templates/cis/skins/2025/assets/images/lg/Hero_Light_Blue.png) center center,
+  modern_style: url(/templates/cis/skins/2025/assets/images/sm/style-is-modern.jpeg) center center,
+  product_circle: url(/templates/cis/skins/2025/assets/images/sm/product_circle.png) center center,
+  rf_canned_veg: url(/templates/cis/skins/2025/assets/images/sm/RF_Canned__veg.png) center center,
+  sale_blurred: url(/templates/cis/skins/2025/assets/images/sm/Sale_blurred.png) center center,
+  shaking_hands_storage: url(/templates/cis/skins/2025/assets/images/sm/shaking-hands-storage.jpg) center center,
+  shipping_yard: url(/templates/cis/skins/2025/assets/images/sm/shipping_yard.jpg) center center,
+  supermarket_discount: url(/templates/cis/skins/2025/assets/images/sm/supermarket-discount-sign.jpg) center center,
+  swoosh: url(/templates/cis/skins/2025/assets/images/sm/Swoosh.png) center center,
+  swoosh_2: url(/templates/cis/skins/2025/assets/images/sm/Swoosh_2.png) center center,
+  swoosh_solid: url(/templates/cis/skins/2025/assets/images/lg/swoosh_solid.png) center -100px,
+  vegetables_cutting_board: url(/templates/cis/skins/2025/assets/images/sm/vegetables-cutting-board.jpg) center center,
+  volunteer_food: url(/templates/cis/skins/2025/assets/images/sm/volunteer-essential-food.jpg) center center,
+  volume_boxes: url(/templates/cis/skins/2025/assets/images/sm/close-up-volunteers-packing-food-boxes.jpg) center center,
+  warehouse_view: url(/templates/cis/skins/2025/assets/images/lg/close-up-warehouse-view.jpg) center center,
+  hero_1: url(/templates/cis/skins/2025/assets/hero/Header%20Img%201.png) center center,
+  hero_2: url(/templates/cis/skins/2025/assets/hero/Header%20Img%202.png) center center,
+  hero_3: url(/templates/cis/skins/2025/assets/hero/Header%20Img%203.png) center center,
+  hero_4: url(/templates/cis/skins/2025/assets/hero/Header%20Img%204.png) center center,
+  hero_5: url(/templates/cis/skins/2025/assets/hero/Header%20Img%205.png) center center
 );
+

@@ -1,6 +1,6 @@
-<section id="section-5" class="py-5">
-  <div class="containerx text-center overflow-hidden">
-    <h2 class="mb-4 fw-bold">Our Trusted Partners</h2>
+<section id="section-5">
+  <div class="feature-content text-center overflow-hidden">
+    <h2 class="mb-4 fw-semibold color-brand-dark-blue">Our Trusted Partners</h2>
 
     <div class="overflow-hidden">
       <div class="d-flex flex-nowrap align-items-center" id="partner-carousel">
@@ -28,9 +28,6 @@
     #partner-carousel {
         animation: scrollLeft 20s linear infinite;
     }
-    /* .arrow-icon, .scroll-arrow {
-  display: none !important;
-} */
 
     @keyframes scrollLeft {
         0% { transform: translateX(0); }

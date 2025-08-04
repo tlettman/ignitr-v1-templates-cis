@@ -1,10 +1,10 @@
-<section id="hero" class="feature-section position-relative bg-one bg-cover vh-100 text-center py-5">
+<section id="hero" class="feature-section position-relative bg-hero_light_blue bg-cover vh-100 text-center py-5">
   <img class="img-fluid floater position-absolute z-1" src="/templates/cis/skins/2025/assets/images/sm/product_circle.png" />
 
   <? // $this->widget( 'sparks', 'single', 640 ) ?>
 
   <div class="d-flex align-items-center justify-content-center h-100 w-100 position-relative z-2">
-    <div class="container-fluid position-relative">
+    <div class="container-fluid position-relative feature-content">
       <h1 class="fw-bold display-4 color-white">
         Supplying America's<br>
         Independent Grocery Stores and<br>

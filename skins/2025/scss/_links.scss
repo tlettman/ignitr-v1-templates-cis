@@ -11,3 +11,9 @@ a {
     color: darken( map-get($theme-colors, brand-dark-blue), 10%);
   }
 }
+
+a:focus, button:focus, .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+

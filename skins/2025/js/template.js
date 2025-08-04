@@ -6,7 +6,10 @@ var winW = $(window).width();
 
 
 $(function() {
-    // placeholder 
+
+    // Adjust layout container margin on load
+    $('#layout').css( 'margin-top', headerH+'px' );
+
 });
 
 

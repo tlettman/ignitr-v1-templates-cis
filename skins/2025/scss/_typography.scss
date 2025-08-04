@@ -12,12 +12,18 @@ h1 {
 }
 
 h2 {
-  font-family: map-get($theme-fonts, two);
-  color: map-get($theme-colors, mid-green);
+  margin: 0 0 20px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: map-get($theme-colors, brand-dark-blue);
 }
 
 h3 {
-    
+  margin: 0 0 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: map-get($theme-colors, brand-teal);
 }
 
 h4 {
@@ -25,13 +31,6 @@ h4 {
 }
 
 p {
-   
+   font-weight: 400;
 }
 
-body.hp h1 {
-    
-}
-
-body.hp p {
-    
-}
