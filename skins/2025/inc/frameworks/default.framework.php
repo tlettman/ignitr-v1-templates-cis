@@ -1,4 +1,4 @@
-<header class="position-fixed top-0 start-0 w-100 z-3">
+<header class="position-fixed top-0 start-0 w-100 z-5">
     <div class="position-relative">
         <div id="topbar" class="bg-brand-dark-blue color-white text-end no-margin">
             <? $this->widget( 'sparks', 'single', 638 ) ?>

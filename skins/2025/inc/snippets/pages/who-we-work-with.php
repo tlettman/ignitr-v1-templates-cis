@@ -5,7 +5,7 @@
             <h1 class="color-white"><?=$page['h1']?></h1>
             <p class="color-white">CIS utilizes the products it purchases from manufacturers worldwide to support small mom-and-pop grocery stores, non-profits, discount retailers, and various other channels.</p>
         </div>
-        <div class="col-12 col-md-6 bg-hero_2 bg-cover">
+        <div class="col-12 col-md-6 bg-hero_2 bg-cover feature-bg">
             &nbsp;
         </div>
     </div>
@@ -16,7 +16,7 @@
 
     <div id="non-profits" class="row">
 
-        <div class="col-md-6 pe-5">
+        <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
             <img src="/templates/cis/skins/2025/assets/images/sm/volunteer-essential-food.jpg" alt="Our Story" class="img-fluid">
         </div>
         <div class="col-md-6">
@@ -29,7 +29,7 @@
     </div>
 
     <div id="price-impact-stores" class="row">
-        <div class="col-md-6 pe-5">
+        <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
             <img src="/templates/cis/skins/2025/assets/images/sm/defocused-supermarket.jpg" alt="Our Goal" class="img-fluid">
         </div>
         <div class="col-md-6">
@@ -42,7 +42,7 @@
     </div>
 
     <div id="alternative-retail" class="row">
-        <div class="col-md-6 pe-5">
+        <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
             <img src="/templates/cis/skins/2025/assets/images/sm/Sale_blurred.png" alt="Our Goal" class="img-fluid">
         </div>
         <div class="col-md-6">
@@ -56,7 +56,7 @@
     </div>
 
     <div id="food-service" class="row">
-        <div class="col-md-6 pe-5">
+        <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
             <img src="/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg" alt="Our Goal" class="img-fluid">
         </div>
         <div class="col-md-6">

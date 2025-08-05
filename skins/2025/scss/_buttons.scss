@@ -18,5 +18,7 @@
 
 .btn.btn-primary.disabled,
 .btn.btn-default.disabled {
-  color: map-get($theme_colors, disabled);
+  background: map-get($theme_colors, disabled);
+  color: map-get($theme_colors, white);
+  cursor:not-allowed;
 }

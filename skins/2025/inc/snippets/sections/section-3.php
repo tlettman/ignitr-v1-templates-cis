@@ -1,4 +1,4 @@
-<section id="section-3" class="feature-section bg-swoosh_solid bg-cover no-pad text-center">
+<section id="section-3" class="feature-section bg-swoosh_solid bg-cover no-pad text-center d-none d-sm-block">
 
   <h2 class="color-brand-dark-blue fw-bold">Our Partners</h2>
 	

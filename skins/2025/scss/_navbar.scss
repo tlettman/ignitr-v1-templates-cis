@@ -2,9 +2,7 @@
 /* ******* Navbar ******* */
 
 header .navbar {
-    // position: relative;
-    // z-index: 100;
-    padding:15px 30px;
+    padding:15px 10px;
     background: transparent !important;
 }
 
@@ -20,21 +18,21 @@ header .navbar a {
     }
 }
 
-
 header .navbar .navbar-brand {
-    max-width: 220px;
-}
-
-header .navbar ul li:last-of-type a {
-  background-color: map-get($theme-colors, orange);
-  color: map-get($theme-colors, white);
-  border-radius: 999px;
-  margin-top:3px;
-  padding: 3px 20px 4px !important;
+    max-width: 160px;
 }
 
 header .navbar .dropdown-toggle:focus {
     outline: none;
     box-shadow: none;
+}
+
+header .navbar-toggler {
+    border: none;
+    box-shadow: none;
+}
+
+header .navbar-collapse {
+    margin-top: 15px;
 }
 

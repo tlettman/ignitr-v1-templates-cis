@@ -44,14 +44,28 @@ $config['pages']['hero'] = true;
 $config['pages']['abstract'] = true;
 
 // Contact Form engine
-$config['contactform']['labels'] = true;
-$config['contactform']['email_user'] = true;
+// $config['contactform']['labels'] = true;
+// $config['contactform']['email_user'] = true;
 
-$config['contactform']['autocomplete'] = true;
-$config['contactform']['fields'][] = array( 'type'=>'text', 'id'=>'name', 'placeholder'=>'Your Name', 'required'=>true );
-$config['contactform']['fields'][] = array( 'type'=>'email', 'id'=>'email', 'placeholder'=>'you@yourdomain.com', 'required'=>true );
-$config['contactform']['fields'][] = array( 'type'=>'textarea', 'id'=>'comments', 'label'=>'Do you have any additional questions for us?', 'placeholder'=>'Questions or comments.', 'required'=>true );
+// $config['contactform']['autocomplete'] = true;
+// $config['contactform']['fields'][] = array( 'type'=>'text', 'id'=>'name', 'placeholder'=>'Your Name', 'required'=>true );
+// $config['contactform']['fields'][] = array( 'type'=>'email', 'id'=>'email', 'placeholder'=>'you@yourdomain.com', 'required'=>true );
+// $config['contactform']['fields'][] = array( 'type'=>'textarea', 'id'=>'comments', 'label'=>'Do you have any additional questions for us?', 'placeholder'=>'Questions or comments.', 'required'=>true );
 // $config['contactform']['fields'][] = array( 'type'=>'file', 'id'=>'file', 'label'=>'Do you have something you would like us to take a look at? Attach a JPG image here.' );
+
+// General Contact Form
+$config['contactform']['owzGbPxz5q']['labels'] = true;
+$config['contactform']['owzGbPxz5q']['email_user'] = false;
+
+$config['contactform']['owzGbPxz5q']['autocomplete'] = true;
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'name', 'placeholder'=>'Your Name', 'required'=> true );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'email', 'id'=>'email', 'placeholder'=>'you@yourdomain.com', 'required'=> true );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'textarea', 'id'=>'comments', 'placeholder'=>'Comments or questions...', 'required'=> true );
+// $config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'order_number', 'placeholder'=>'Order Number (optional)' );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'file', 'id'=>'upload', 'label'=>'Attach a file.' );
+
+
+
 
 // Gallery
 $config['gallery']['thumbqty'] = 100;

@@ -1,3 +1,3 @@
-<div class="container-fluid feature-content banner bg-sky-blue text-center py-5 px-5">
+<div class="container-fluid banner bg-sky-blue text-center">
     <h2 class="color-white">We strive to be the<br />lowest priced provider.</h2>
 </div>

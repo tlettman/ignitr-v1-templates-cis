@@ -32,6 +32,31 @@ class templateClass extends ignitrClass {
 	}
 
 
+	private function flaresWidget( $category_uid, $postqty=4 )
+	{
+		$dim = 800;
+		$quality = 95;
+
+		$dimh = $dim;
+
+		$json = '{ "postqty":"'.$postqty.'", "abstractmaxchars":"160", "category_uid":"'.$category_uid.'", "quality":"'.$quality.'", "postimgwidth":"'.$dim.'", "postimgheight":"'.$dimh.'", "crop":"false", "favor":"height" }';
+		$data = $this->widget( 'flares', 'postdata', $json, false );
+		if( is_array( $data ) ){
+			foreach( $data as $post ){
+				$out .= '
+				<h2 class="mb-5 fw-semibold color-brand-dark-blue">Upcoming Events</h2>  
+				<img src="'.$post['postimg'].'" alt="'.$post['title'].'" class="mb-4" style="height: 100px;">
+				<h3 class="fw-bold mb-1">'.$post['title'].'</h3>
+				<p class="mb-1 dates">'.$post['event_date'].' - '.$post['event_date2'].'</p>
+				<p class="abstract">'.$post['abstract'].'</p>
+				<a href="/events/'.$post['posturl'].'/" class="btn btn-primary">Learn More <i class="fas fa-arrow-right ms-2"></i></a>';
+			}
+
+			echo $out;
+		}
+	}
+
+
 }
 
 

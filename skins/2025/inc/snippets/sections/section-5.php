@@ -1,4 +1,4 @@
-<section id="section-5">
+<section id="section-5" class="d-none d-sm-block">
   <div class="feature-content text-center overflow-hidden">
     <h2 class="mb-4 fw-semibold color-brand-dark-blue">Our Trusted Partners</h2>
 

@@ -1,11 +1,11 @@
 
-<section class="mb-4">
+<section class="mb-4 hiddenx">
     <div class="row">
         <div class="col-12 col-md-6 feature-content bg-brand-dark-blue">
             <h1 class="color-white"><?=$page['h1']?></h1>
             <p class="color-white">One of the largest niche wholesalers in the US that provide quality low cost items to several channels across the US. Located right outside of Minneapolis MN distributing to all states within the US , Mexico and Canada.</p>
         </div>
-        <div class="col-12 col-md-6 bg-hero_1 bg-cover">
+        <div class="col-12 col-md-6 bg-hero_1 bg-cover feature-bg">
             &nbsp;
         </div>
     </div>
@@ -15,7 +15,7 @@
   <div class="container">
 
     <div class="row pb-5 mb-5">
-      <div class="col-md-6 pe-5">
+      <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
         <img src="/templates/cis/skins/2025/assets/images/sm/CIS_Warehouse.png" alt="Our Story" class="img-fluid">
       </div>
       <div class="col-md-6">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6 pe-5">
+      <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
         <img src="/templates/cis/skins/2025/assets/images/sm/CIS_Warehouse_Inside.png" alt="Our Goal" class="img-fluid">
       </div>
       <div class="col-md-6">

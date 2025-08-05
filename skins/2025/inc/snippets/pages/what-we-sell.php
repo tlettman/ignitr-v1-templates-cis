@@ -5,7 +5,7 @@
             <h1 class="color-white"><?=$page['h1']?></h1>
             <p class="color-white">CIS sells the products it purchases both domestically and internationally, including closeouts, problematic inventory, low-cost imports, and everyday continuity lines. Our offerings encompass both shelf-stable grocery items and health & beauty care products.</p>
         </div>
-        <div class="col-12 col-md-6 bg-hero_3 bg-cover">
+        <div class="col-12 col-md-6 bg-hero_3 bg-cover feature-bg">
             &nbsp;
         </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="container ruled-rows">
 
         <div id="closeouts" class="row">
-            <div class="col-md-6 pe-5">
+            <div class="col-md-6 pe-md-5 mb-5 mb-md-0 d-none d-sm-block">
                 <img src="/templates/cis/skins/2025/assets/images/sm/RF_Canned__veg.png" alt="Closeouts" class="img-fluid">
             </div>
             <div class="col-md-6">
@@ -37,7 +37,7 @@
     <div class="container ruled-rows">
 
         <div id="continuity-lines" class="row">
-            <div class="col-md-6 pe-5">
+            <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
                 <img src="/templates/cis/skins/2025/assets/images/sm/blurred_grocery.jpg" alt="Continuity Lines" class="img-fluid">
             </div>
             <div class="col-md-6">
@@ -50,7 +50,7 @@
         </div>
 
         <div id="low-cost-imports" class="row">
-            <div class="col-md-6 pe-5">
+            <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
                 <img src="/templates/cis/skins/2025/assets/images/sm/grains.jpg" alt="Low Cost Imports" class="img-fluid">
             </div>
             <div class="col-md-6">
