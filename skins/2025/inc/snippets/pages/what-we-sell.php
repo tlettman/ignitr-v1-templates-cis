@@ -14,7 +14,7 @@
 <section class="py-5">
     <div class="container ruled-rows">
 
-        <div class="row">
+        <div id="closeouts" class="row">
             <div class="col-md-6 pe-5">
                 <img src="/templates/cis/skins/2025/assets/images/sm/RF_Canned__veg.png" alt="Closeouts" class="img-fluid">
             </div>
@@ -36,7 +36,7 @@
 
     <div class="container ruled-rows">
 
-        <div class="row">
+        <div id="continuity-lines" class="row">
             <div class="col-md-6 pe-5">
                 <img src="/templates/cis/skins/2025/assets/images/sm/blurred_grocery.jpg" alt="Continuity Lines" class="img-fluid">
             </div>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="low-cost-imports" class="row">
             <div class="col-md-6 pe-5">
                 <img src="/templates/cis/skins/2025/assets/images/sm/grains.jpg" alt="Low Cost Imports" class="img-fluid">
             </div>
@@ -70,3 +70,18 @@
 require_once $this->inc.'snippets/banners/shippingyard.php';
 require_once $this->inc.'snippets/sections/section-6.php';
 ?>
+
+
+
+<script>
+  $(document).ready(function () {
+    if (window.location.hash) {
+      const target = $(window.location.hash);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 600); // adjust speed if needed
+      }
+    }
+  });
+</script>

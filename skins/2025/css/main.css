@@ -343,18 +343,21 @@ p {
   font-weight: 400; }
 
 /* ******* Buttons ******* */
-.btn.btn-primary {
+.btn.btn-primary,
+.btn.btn-default {
   border: none;
   padding: 6px 20px 8px;
   border-radius: 999px;
   background: #00e0b6;
   color: #03303b;
   font-weight: 600; }
-  .btn.btn-primary:hover {
+  .btn.btn-primary:hover,
+  .btn.btn-default:hover {
     cursor: pointer;
     background: #00ad8d; }
 
-.btn.btn-primary.disabled {
+.btn.btn-primary.disabled,
+.btn.btn-default.disabled {
   color: #c6c6c6; }
 
 /* ******* Links ******* */
@@ -387,7 +390,7 @@ header .navbar a {
 header .navbar .navbar-brand {
   max-width: 220px; }
 
-header .navbar > ul li:last-of-type a {
+header .navbar ul li:last-of-type a {
   background-color: #ed7b49;
   color: #fff;
   border-radius: 999px;
@@ -399,6 +402,9 @@ header .navbar .dropdown-toggle:focus {
   box-shadow: none; }
 
 /* ******* Layout ******* */
+body {
+  overflow-x: hidden; }
+
 .no-pad {
   padding: 0 !important; }
 
@@ -573,5 +579,16 @@ footer p.branding a {
 
 #section-6 h2 {
   font-size: 4rem; }
+
+#job-posts .post {
+  margin: 0 0 60px; }
+
+#job-posts .post h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #044959; }
+
+#job-posts .post p {
+  font-size: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

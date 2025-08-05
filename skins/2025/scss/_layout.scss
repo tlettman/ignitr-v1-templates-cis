@@ -1,6 +1,10 @@
 
 /* ******* Layout ******* */
 
+body {
+  overflow-x: hidden;
+}
+
 .no-pad {
     padding: 0 !important;
 }
@@ -262,4 +266,25 @@ footer {
 
     #section-6 h2 {
         font-size: 4rem;
+    }
+
+
+// Employment : Engine 21 
+
+#job-posts {
+    // placeholder 
+}
+
+    #job-posts .post {
+        margin: 0 0 60px;
+    }
+
+    #job-posts .post h3 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+        color: map-get($theme-colors, brand-dark-blue);
+    }
+
+    #job-posts .post p {
+        font-size: 1rem;
     }

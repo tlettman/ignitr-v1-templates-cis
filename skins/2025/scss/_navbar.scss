@@ -25,7 +25,7 @@ header .navbar .navbar-brand {
     max-width: 220px;
 }
 
-header .navbar > ul li:last-of-type a {
+header .navbar ul li:last-of-type a {
   background-color: map-get($theme-colors, orange);
   color: map-get($theme-colors, white);
   border-radius: 999px;

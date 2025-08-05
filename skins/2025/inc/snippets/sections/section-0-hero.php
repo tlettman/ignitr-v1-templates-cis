@@ -16,10 +16,10 @@
         distributing these products to non-profits and discount grocers.
       </p>
       <div class="mt-4 d-flex justify-content-center gap-3">
-        <a href="#" class="btn btn-primary bg-brand-dark-blue color-white">
+        <a href="/who-we-are/" class="btn btn-primary bg-brand-dark-blue color-white">
           Learn More <i class="fas fa-arrow-right ms-2"></i>
         </a>
-        <a href="#" class="btn btn-primary">
+        <a href="/contact/" class="btn btn-primary">
           Contact Us <i class="fas fa-arrow-right ms-2"></i>
         </a>
       </div>

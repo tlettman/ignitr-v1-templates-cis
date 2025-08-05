@@ -1,7 +1,8 @@
 
 /* ******* Buttons ******* */
 
-.btn.btn-primary {
+.btn.btn-primary,
+.btn.btn-default {
   border: none;
   padding: 6px 20px 8px;
   border-radius: 999px;
@@ -15,6 +16,7 @@
   }
 }
 
-.btn.btn-primary.disabled {
+.btn.btn-primary.disabled,
+.btn.btn-default.disabled {
   color: map-get($theme_colors, disabled);
 }

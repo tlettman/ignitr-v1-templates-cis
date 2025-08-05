@@ -12,7 +12,7 @@
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Non-Profits</h5>
             <p class="card-text color-brand-dark-blue">Food banks, relief/emergency programs, feeding programs</p>
-            <a href="#" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
+            <a href="/who-we-work-with/#non-profits" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 
@@ -22,7 +22,7 @@
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Price Impact Stores</h5>
             <p class="card-text color-brand-dark-blue">Food banks, relief/emergency programs, feeding programs</p>
-            <a href="#" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
+            <a href="/who-we-work-with/#price-impact-stores" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Alternative Retail</h5>
             <p class="card-text color-brand-dark-blue">Food banks, relief/emergency programs, feeding programs</p>
-            <a href="#" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
+            <a href="/who-we-work-with/#alternative-retail" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 
@@ -42,7 +42,7 @@
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Food Service</h5>
             <p class="card-text color-brand-dark-blue">Food banks, relief/emergency programs, feeding programs</p>
-            <a href="#" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
+            <a href="/who-we-work-with/#food-service" class="btn btn-primary">More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 

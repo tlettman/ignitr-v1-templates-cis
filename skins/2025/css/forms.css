@@ -1,0 +1,482 @@
+@charset"UTF-8";
+/**
+ * Filename:        forms.css
+ * Revision:        v3.0 => 2018.02.01
+ * Organization:    ignitr => http://ignitr.com
+ * Author:          Trevor Lettman / Space2Burn
+*/
+
+
+.dropdown-menu.open {
+	z-index: 10006 !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+form .form-group label {
+	font-size: 13px;
+	font-weight: 300;
+	color: #666;
+}
+
+form .form-group input:not([type=checkbox]):not([type=radio]),
+form .form-group textarea,
+form .form-group select,
+form .form-group button {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+form .form-group input:not([type=checkbox]):not([type=radio]),
+form .form-group select,
+form .form-group button {
+	height: 50px;
+}
+
+form .form-group input:not([type=checkbox]):not([type=radio])
+{
+	font-size: 15px !important;
+}
+
+.error {
+	border: 1px solid #a94442;
+}
+
+
+/*** FontAwesome checkboxes ***/
+
+form .checkbox {
+	padding-left: 18px;
+}
+
+form .checkbox label {
+	display: inline-block !important;
+	vertical-align: middle;
+	margin-left: -18px;
+}
+
+form .checkbox label span {
+	font-size: 14px;
+	color: #666;
+}
+
+/*input[type=checkbox] { display:none; } 
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } 
+input[type=checkbox] + label:before { letter-spacing: 10px; } 
+
+input[type=checkbox]:checked + label:before { content: "\f046"; color: #58B42A; } 
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } 
+*/
+
+
+/**
+ * LEGACY FORMS.CSS
+*/
+
+
+/**
+ * UL.form / Frontend
+*/
+
+ul.form {
+	margin:0 0 20px 0;
+	padding:0;
+}
+
+ul.form li {
+	position:relative;
+    display: block;
+    /* border: 1px solid blue; */
+    min-height: 100px;
+	list-style:none;
+	margin:0 0 10px 0;
+	padding:5px;
+}
+
+ul.form li.twocol
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+}
+
+@media (max-width: 991px) {
+
+   ul.form li.twocol
+	{
+		display: block;
+		width: auto;
+	}
+
+}
+
+ul.form li ul li {
+	position:relative;
+	margin:0 0 10px 0;
+}
+
+ul.form li label {
+	display:block;
+	float:none;
+	margin:0 0 5px 0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#333;
+}
+
+/*ul.form li input:not(.error)*/
+ul.form li input
+{
+	background: #fff !important;
+}
+
+ul.form li input:not([type=checkbox]):not([type=radio]),
+ul.form li textarea {
+	margin: 0;
+	padding: 10px;
+    font-size: 1rem;
+	color: #333;
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius:  0 !important;
+	-webkit-appearance: none;
+}
+
+ul.form li textarea {
+	width:95%;
+	height:100px;
+	border:1px solid #CCC;
+	font-size:16px;
+}
+
+ul.form li textarea:focus, 
+ul.form li input:not([type=checkbox]):not([type=radio]):focus {
+	border: 1px solid #09C;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	outline-width: 0;
+}
+
+ul.form li input:not([type=checkbox]):not([type=radio]) {
+	width:95%;
+	/*max-width:400px;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	border:1px solid #CCC;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+ul.form li select {
+	margin:3px 0 0 0;
+	padding: 10px;
+	height:40px;
+	min-width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+	border:1px solid #CCC;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+
+ul.form li input.date {
+	width:100px;
+}
+
+
+/**
+ * Radio / Checkbox
+*/
+
+ul.checkboxlist li,
+ul.form li.checkboxlist {
+	margin:0 0 3px 0;
+	padding:0;
+}
+
+/*ul.form li.radioset input[type="radio"],
+ul.form li div.radioset input[type="radio"],
+ul.checkboxlist li input[type="checkbox"],
+ul li.checkboxlist input[type="checkbox"],
+ul.checkboxlist li input[type="radio"],
+ul li.checkboxlist input[type="radio"] {
+	display:inline-block;
+	*display:inline;
+	vertical-align:top;
+	width:21px;
+	height:21px;
+}*/
+
+ul.checkboxlist li label,
+ul li.checkboxlist label {
+	display:inline-block;
+	*display:inline;
+	margin:0 10px 0 0;
+	padding:-1px 0 0 0;
+}
+
+ul.checkboxlist li label.checkall {
+	font-weight:bold;
+	color:#000;
+}
+
+ul.form li div.buttonset label { /* ui */
+	float:none;
+	display:inline-block;
+	padding:0;
+	width:auto;
+	font-size:14px;
+	text-align:center;
+	max-width:none;
+	color:#727272;
+}
+
+
+/**
+ * Validation Classes
+*/
+
+.form-error,
+ul.form li input.form-error,
+ul.form li select.form-error,
+ul.form li textarea.form-error,
+ul.form li div.form-error,
+ul.form li.form-error {
+	border:1px solid red !important;
+}
+
+ul.form li.form-error {
+	padding:5px;
+}
+
+ul.form li.form-error {
+	background:transparent;
+}
+
+ul.form li .required {
+	background-image:url(/core/structure/misc/required_field.png);
+}
+
+ul.form li.required {
+	background:transparent;
+}
+
+
+/**
+ * jQuery DatePicker
+*/
+
+ul.form li.datepicker input {
+	float:none;
+	display:inline-block;
+	margin:0;
+	width:100px;
+}
+
+ul.form li.datepicker label {
+	float:none;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+
+/**
+ * jQuery Birthday Picker
+*/
+
+ul.form li div.birthdaypicker select,
+ul.form li.small select {
+	min-width:80px !important;
+	width:80px !important;
+}
+
+ul.form li.small-100 select {
+	min-width:100px !important;
+	width:80px !important;
+}
+
+ul.form li.small-120 select {
+	min-width:120px !important;
+	width:80px !important;
+}
+
+
+/**
+ * Sample Input
+*/
+
+.sampleinput {
+	color:#CCC;
+}
+
+ul.form li.nomargin {
+	margin:0;
+}
+
+
+/**
+ * ckEditor Wrapper
+*/
+
+ul.form li div.ckeditor {
+	margin:0;
+	width:800px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+
+/**
+ * SEO Title Display (formbuilder)
+*/
+
+ul.form li#seo-title-display {
+	display:none;
+	font-size:.75em;
+	color:#666;
+}
+
+
+/**
+ * jQuery Color Picker
+*/
+
+ul.form li input.colorinput {
+	width:70px;
+}
+
+
+/**
+ * Focus
+*/
+
+input.setfocus {
+	color:#CCC !important;
+}
+
+input.focused {
+	color:#000;
+}
+
+/*2024.11.06 fix for alerts / bootstrap 5.7*/
+#cf-alert
+{
+	background: #fff !important;
+}
+
+
+/**
+ * Misc Classes
+*/
+
+ul.form li.hidden {
+	display:none;
+}
+
+
+/**
+ * Image Delete Option
+*/
+
+div.imgdeleteoption {
+	display:block;
+}
+
+div.uiButton {
+	font-size:.9em;
+}
+
+
+/**
+ * WDB
+*/
+
+ul.form li div.select-wrapper {
+	position:relative;
+	float:left;
+	margin:-3px 0 0 -3px;
+	padding:0;
+	width:450px;
+	min-height:30px;
+	font-size:12px;
+	color:#CCC;
+}
+
+ul.form li a.location-to-text:link, ul.form li a.location-to-text:active, ul.form li a.location-to-text:visited, ul.form li a.location-to-text:hover, ul.form li a.location-to-text:visited:hover {
+	display:block;
+	margin:0;
+	padding:3px 0 0 0;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+ul.form li a.location-to-text:hover, ul.form li a.location-to-text:visited:hover {
+	color:#00BBEB;
+	text-decoration:underline;
+}
+
+
+/**
+ * jQuery Uniform
+*/
+
+ul.form li div.wrapper {
+	float:left;
+}
+
+/**
+ * Admin
+*/
+
+ul.form li.admin,
+div.admin {
+	padding:5px;
+	border:1px dashed red;
+}
+
+
+@media (max-width: 767px){
+	ul.form li {
+		margin-left: 0 !important;
+	}
+
+	ul.form li input,
+	ul.form li textarea
+	{
+		width: 100% !important;
+	}
+
+	ul.form li .btn
+	{
+		width: 100% !important;
+	}
+}
+
+.hidden {
+    display: none;
+}
+
+#submitbutton-row {
+    margin-top:70px;
+}

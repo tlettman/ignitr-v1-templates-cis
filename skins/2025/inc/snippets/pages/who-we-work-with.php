@@ -14,7 +14,7 @@
 <section class="py-5">
   <div class="container ruled-rows">
 
-    <div class="row">
+    <div id="non-profits" class="row">
 
         <div class="col-md-6 pe-5">
             <img src="/templates/cis/skins/2025/assets/images/sm/volunteer-essential-food.jpg" alt="Our Story" class="img-fluid">
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div id="price-impact-stores" class="row">
         <div class="col-md-6 pe-5">
             <img src="/templates/cis/skins/2025/assets/images/sm/defocused-supermarket.jpg" alt="Our Goal" class="img-fluid">
         </div>
@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div id="alternative-retail" class="row">
         <div class="col-md-6 pe-5">
             <img src="/templates/cis/skins/2025/assets/images/sm/Sale_blurred.png" alt="Our Goal" class="img-fluid">
         </div>
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div id="food-service" class="row">
         <div class="col-md-6 pe-5">
             <img src="/templates/cis/skins/2025/assets/images/sm/frozen-vegetables-mix.jpg" alt="Our Goal" class="img-fluid">
         </div>
@@ -75,3 +75,18 @@
 require_once $this->inc.'snippets/banners/lowestpriced.php';
 require_once $this->inc.'snippets/sections/section-6.php';
 ?>
+
+
+
+<script>
+  $(document).ready(function () {
+    if (window.location.hash) {
+      const target = $(window.location.hash);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 600); // adjust speed if needed
+      }
+    }
+  });
+</script>

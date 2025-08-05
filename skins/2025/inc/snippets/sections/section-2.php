@@ -4,17 +4,17 @@
       <div class="w-100 d-flex flex-column justify-content-between">
         <h2 class="mb-0 fw-semibold color-white">What we sell</h2>
         <div>
-          <a href="#">
+          <a href="/what-we-sell/#closeouts">
           <h3 class="color-white">Closeouts <i class="fas fa-arrow-right"></i></h3>
           <p class="color-white">Close Coded, Off-Spec Items, Problematic Inventory</p>
           </a>
 
-          <a href="#">
+          <a href="/what-we-sell/#low-cost-imports">
           <h3 class="color-white">Low Cost Imports <i class="fas fa-arrow-right"></i></h3>
           <p class="color-white">Imported Canned and Dry Goody</p>
           </a>
 
-          <a href="#">
+          <a href="/what-we-sell/#continuity-lines">
           <h3 class="color-white">Continuity Lines <i class="fas fa-arrow-right"></i></h3>
           <p class="color-white">Low Cost Economy Line New Production</p>
           </a>
