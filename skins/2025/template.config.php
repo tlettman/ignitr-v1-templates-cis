@@ -58,11 +58,11 @@ $config['contactform']['owzGbPxz5q']['labels'] = true;
 $config['contactform']['owzGbPxz5q']['email_user'] = false;
 
 $config['contactform']['owzGbPxz5q']['autocomplete'] = true;
-$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'name', 'placeholder'=>'Your Name', 'required'=> true );
-$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'email', 'id'=>'email', 'placeholder'=>'you@yourdomain.com', 'required'=> true );
-$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'textarea', 'id'=>'comments', 'placeholder'=>'Comments or questions...', 'required'=> true );
-// $config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'order_number', 'placeholder'=>'Order Number (optional)' );
-$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'file', 'id'=>'upload', 'label'=>'Attach a file.' );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'name', 'placeholder'=>'', 'label'=>'Full Name', 'required'=> true );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'email', 'id'=>'email', 'placeholder'=>'', 'label'=>'Email', 'required'=> true );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'text', 'id'=>'phone', 'placeholder'=>'', 'label'=>'Phone', 'required'=> false );
+$config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'textarea', 'id'=>'comments', 'placeholder'=>'', 'label'=>'Comment', 'required'=> true );
+// $config['contactform']['owzGbPxz5q']['fields'][] = array( 'type'=>'file', 'id'=>'upload', 'label'=>'Attach a file.' );
 
 
 

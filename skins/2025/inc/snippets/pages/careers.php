@@ -46,7 +46,7 @@
                         <p>'.$item['location'].'</p>
                     </div>
                     <div class="col-2">
-                        <a href="/careers/'.$item['url'].'/" class="btn btn-primary">Learn More <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="/careers/'.$item['url'].'/" class="btn btn-primary btn-arrow">Learn More</i></a>
                     </div>
                 </div>
             </div>';

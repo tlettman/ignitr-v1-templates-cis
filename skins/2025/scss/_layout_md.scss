@@ -19,6 +19,7 @@
         }
 
         .banner h2 {
+            margin: 20px 20px 30px;
             font-size: 4rem;
         }
 
@@ -90,6 +91,10 @@
 
     #section-6 h2 {
         font-size: 4rem;
+    }
+
+    #page-contact .ratio {
+        max-width: 400px !important;
     }
 
 }

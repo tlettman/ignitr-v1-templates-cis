@@ -12,7 +12,7 @@
 
         <div class="bg-swoosh_solid bg-cover position-absolute z-n1 top-0 start-0 w-100 h-100">&nbsp;</div>
         
-    <div>
+    </div>
 </header>
 
 <section id="layout">

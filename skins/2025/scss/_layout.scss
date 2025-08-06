@@ -1,16 +1,9 @@
 
 /* ******* Layout ******* */
 
-// Fix for overflow x-scroll issue
-#ignitr-wrapper {
-    // overflow-x: hidden;
-    // position: relative;
+* {
+    // border: 1px solid red;
 }
-
-// .g-recaptcha div {
-//     padding: 10px;
-//     border: 1px solid red;
-// }
 
 
 .no-pad {
@@ -73,8 +66,8 @@
     }
 
     .banner h2 {
-        margin: 0 0 30px;
-        font-size: 2rem;
+        margin: 30px 10px;
+        font-size: 1.6rem;
     }
 
     .banner h3 {
@@ -98,11 +91,15 @@
 // Header 
 
 header {
-    // placeholder
+    z-index: 1000 !important;
 }
 
     header .bg-cover {
-        opacity: 0.9 !important;
+        opacity: 1 !important;
+    }
+
+    body.hp header .bg-cover {
+        opacity: 0.95 !important;
     }
 
 #topbar {
@@ -296,10 +293,40 @@ footer {
     border-bottom: 1px solid #f4f4f4;
 }
 
+    #section-5 .feature-content {
+        padding: 70px 0;
+    }
+
     #section-5 h2 {
         margin: 0 30px 40px;
         font-size: 2.2rem;
     }
+
+    #section-5 .overflow-hidden {
+        position: relative;
+    }
+
+    #section-5 .overflow-hidden::before,
+    #section-5 .overflow-hidden::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 140px;
+        height: 100%;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    #section-5 .overflow-hidden::before {
+        left: 0;
+        background: linear-gradient(to right, white 0%, transparent 100%);
+    }
+
+    #section-5 .overflow-hidden::after {
+        right: 0;
+        background: linear-gradient(to left, white 0%, transparent 100%);
+    }
+
 
 
 #section-6 {
@@ -330,3 +357,11 @@ footer {
     #job-posts .post p {
         font-size: 1rem;
     }
+
+
+#page-contact h3 {
+    font-size: 1.2rem;
+    color: map-get($theme-colors, black);
+}
+
+    

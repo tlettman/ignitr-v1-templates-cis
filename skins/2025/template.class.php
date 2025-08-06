@@ -49,7 +49,7 @@ class templateClass extends ignitrClass {
 				<h3 class="fw-bold mb-1">'.$post['title'].'</h3>
 				<p class="mb-1 dates">'.$post['event_date'].' - '.$post['event_date2'].'</p>
 				<p class="abstract">'.$post['abstract'].'</p>
-				<a href="/events/'.$post['posturl'].'/" class="btn btn-primary">Learn More <i class="fas fa-arrow-right ms-2"></i></a>';
+				<a href="/events/'.$post['posturl'].'/" class="btn btn-primary btn-arrow">Learn More</i></a>';
 			}
 
 			echo $out;

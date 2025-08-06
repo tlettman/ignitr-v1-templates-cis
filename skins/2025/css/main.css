@@ -364,6 +364,16 @@ p {
   color: #fff;
   cursor: not-allowed; }
 
+.btn-arrow::after {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f061";
+  font-weight: 900;
+  margin-left: 0.5rem;
+  vertical-align: middle; }
+
 /* ******* Links ******* */
 a {
   color: #044959;
@@ -383,10 +393,10 @@ header .navbar {
   background: transparent !important; }
 
 header .navbar a {
-  display: inline-block;
+  display: block;
   margin: 0 0 0 20px;
   color: #044959;
-  font-size: .9rem;
+  font-size: 1.1rem;
   font-weight: 300; }
   header .navbar a:hover {
     color: #ed7b49; }
@@ -410,6 +420,10 @@ header .navbar-collapse {
   header .navbar {
     padding: 15px 30px; }
 
+  header .navbar a {
+    display: inline-block;
+    font-size: .9em; }
+
   header .navbar .navbar-brand {
     max-width: 220px; }
 
@@ -418,7 +432,10 @@ header .navbar-collapse {
     color: #fff;
     border-radius: 999px;
     margin-top: 3px;
-    padding: 3px 20px 4px !important; } }
+    padding: 3px 20px 4px !important; }
+
+  header .navbar-collapse {
+    margin-top: 0; } }
 /* ******* Layout ******* */
 .no-pad {
   padding: 0 !important; }
@@ -465,8 +482,8 @@ header .navbar-collapse {
   min-height: auto; }
 
 .banner h2 {
-  margin: 0 0 30px;
-  font-size: 2rem; }
+  margin: 30px 10px;
+  font-size: 1.6rem; }
 
 .banner h3 {
   margin: 0 0 30px;
@@ -480,8 +497,14 @@ header .navbar-collapse {
 #testmode-header {
   display: none; }
 
+header {
+  z-index: 1000 !important; }
+
 header .bg-cover {
-  opacity: 0.9 !important; }
+  opacity: 1 !important; }
+
+body.hp header .bg-cover {
+  opacity: 0.95 !important; }
 
 #topbar {
   padding: 10px 15px; }
@@ -616,9 +639,33 @@ footer p.branding a {
 #section-5 {
   border-bottom: 1px solid #f4f4f4; }
 
+#section-5 .feature-content {
+  padding: 70px 0; }
+
 #section-5 h2 {
   margin: 0 30px 40px;
   font-size: 2.2rem; }
+
+#section-5 .overflow-hidden {
+  position: relative; }
+
+#section-5 .overflow-hidden::before,
+#section-5 .overflow-hidden::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 140px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; }
+
+#section-5 .overflow-hidden::before {
+  left: 0;
+  background: linear-gradient(to right, white 0%, transparent 100%); }
+
+#section-5 .overflow-hidden::after {
+  right: 0;
+  background: linear-gradient(to left, white 0%, transparent 100%); }
 
 #section-6 h2 {
   font-size: 2rem; }
@@ -634,6 +681,10 @@ footer p.branding a {
 #job-posts .post p {
   font-size: 1rem; }
 
+#page-contact h3 {
+  font-size: 1.2rem;
+  color: #03303b; }
+
 /* ******* Layout - Medium screens (≥768px) ******* */
 @media (min-width: 768px) {
   .vh-md-100 {
@@ -648,6 +699,7 @@ footer p.branding a {
     min-height: auto; }
 
   .banner h2 {
+    margin: 20px 20px 30px;
     font-size: 4rem; }
 
   .banner p {
@@ -698,6 +750,33 @@ footer p.branding a {
     padding: 60px 60px 15px; }
 
   #section-6 h2 {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+
+  #page-contact .ratio {
+    max-width: 400px !important; } }
+/* ******* Forms ******* */
+form {
+  margin-top: 25px; }
+
+textarea {
+  min-height: 140px !important; }
+
+label {
+  font-weight: 500; }
+
+form input,
+form textarea,
+form select {
+  margin-bottom: 20px; }
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border: 1px solid #08a1c4 !important;
+  box-shadow: none !important;
+  outline: none !important; }
+
+.validation-error {
+  border: 1px solid red !important; }
 
 /*# sourceMappingURL=main.css.map */

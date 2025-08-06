@@ -1,12 +1,14 @@
 
 <section class="mb-4">
-    <div class="row">
-        <div class="col-12 col-md-6 feature-content bg-brand-teal">
-            <h1 class="color-white"><?=$page['h1']?></h1>
-            <p class="color-white">CIS sells the products it purchases both domestically and internationally, including closeouts, problematic inventory, low-cost imports, and everyday continuity lines. Our offerings encompass both shelf-stable grocery items and health & beauty care products.</p>
-        </div>
-        <div class="col-12 col-md-6 bg-hero_3 bg-cover feature-bg">
-            &nbsp;
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 feature-content bg-brand-teal">
+                <h1 class="color-white"><?=$page['h1']?></h1>
+                <p class="color-white">CIS sells the products it purchases both domestically and internationally, including closeouts, problematic inventory, low-cost imports, and everyday continuity lines. Our offerings encompass both shelf-stable grocery items and health & beauty care products.</p>
+            </div>
+            <div class="col-12 col-md-6 bg-hero_3 bg-cover feature-bg">
+                &nbsp;
+            </div>
         </div>
     </div>
 </section>

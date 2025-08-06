@@ -1,5 +1,6 @@
 
-<section class="mb-4 hiddenx">
+<section class="mb-4">
+  <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-md-6 feature-content bg-brand-dark-blue">
             <h1 class="color-white"><?=$page['h1']?></h1>
@@ -9,6 +10,7 @@
             &nbsp;
         </div>
     </div>
+  </div>
 </section>
 
 <section class="py-5">

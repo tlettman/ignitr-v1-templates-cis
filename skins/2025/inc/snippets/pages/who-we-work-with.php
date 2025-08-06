@@ -1,12 +1,14 @@
 
 <section class="mb-4">
-    <div class="row">
-        <div class="col-12 col-md-6 feature-content bg-mid-green">
-            <h1 class="color-white"><?=$page['h1']?></h1>
-            <p class="color-white">CIS utilizes the products it purchases from manufacturers worldwide to support small mom-and-pop grocery stores, non-profits, discount retailers, and various other channels.</p>
-        </div>
-        <div class="col-12 col-md-6 bg-hero_2 bg-cover feature-bg">
-            &nbsp;
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 feature-content bg-mid-green">
+                <h1 class="color-white"><?=$page['h1']?></h1>
+                <p class="color-white">CIS utilizes the products it purchases from manufacturers worldwide to support small mom-and-pop grocery stores, non-profits, discount retailers, and various other channels.</p>
+            </div>
+            <div class="col-12 col-md-6 bg-hero_2 bg-cover feature-bg">
+                &nbsp;
+            </div>
         </div>
     </div>
 </section>

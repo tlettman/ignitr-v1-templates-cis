@@ -7,10 +7,10 @@ header .navbar {
 }
 
 header .navbar a {
-    display: inline-block;
+    display: block;
     margin: 0 0 0 20px;
     color: map-get($theme-colors, brand-dark-blue);
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: 300;
 
     &:hover {
